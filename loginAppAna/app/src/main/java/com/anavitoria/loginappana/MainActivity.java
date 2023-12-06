@@ -34,4 +34,18 @@ public class MainActivity extends AppCompatActivity {
             }
         });
     }
+    private boolean checkAllFields() {
+        if (username.getText().toString().isEmpty()) {
+            username.setError("Infome o username");
+            username.requestFocus();
+            return false;
+        } else if (password.getText().toString().isEmpty()) {
+            password.setError("Informe a senha");
+            password.requestFocus();
+            return false;
+        } else {
+            return true;
+        }
+
+    }
 }

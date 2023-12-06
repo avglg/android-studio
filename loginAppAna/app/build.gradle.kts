@@ -4,7 +4,7 @@ plugins {
 
 android {
     namespace = "com.anavitoria.loginappana"
-    compileSdk = 33
+    compileSdk = 34
 
     defaultConfig {
         applicationId = "com.anavitoria.loginappana"
